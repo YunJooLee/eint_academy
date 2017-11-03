@@ -1,35 +1,54 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Navbar Menu Template</title>
 
-    <title>EI&T Academy</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500">
+    <link rel="stylesheet" href="/common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/common/css/animate.css">
+    <link rel="stylesheet" href="/common/css/style.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="/common/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="css/3-col-portfolio.css" rel="stylesheet">
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="/common/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/common/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/common/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/common/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/common/ico/apple-touch-icon-57-precomposed.png">
     <style>
-        body {
-            padding-top: 95px;
+
+        .nav .open>a{
+            background-color: transparent;
+        }
+        .nav .open>a:focus{
+            background-color: transparent;
+        .dropdown-menu{
+            display: block;
+        }
+        }
+        .nav .open>a:hover{
+            background-color: transparent;
+        .dropdown-menu{
+            display: block;
+        }
         }
 
-        @media (min-width: 992px) {
-            padding-top:0px;
-            body {
-                padding-top: 95px;
-            }
-        }
-
-        .portfolio-item {
-            margin-bottom: 30px;
-        }
-
-        .pagination {
-            margin-bottom: 30px;
+        .navbar-right .dropdown-menu{
+            left:0;
+            min-width: 230px;
         }
 
     </style>
@@ -37,145 +56,166 @@
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<!-- Top menu -->
+<nav class="navbar navbar-fixed-top navbar-no-bg" role="navigation">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="/common/img/EINT_logo.png" width="120" alt="">&nbsp;Academy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">회원가입
-                        <span class="sr-only">(current)</span>
-                    </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">EI&T Academy</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-triangle-bottom"></span> About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/about/intro" style="color:#888;">인사말</a></li>
+                        <li><a href="#" style="color:#888;">비전</a></li>
+                        <li><a href="#" style="color:#888;">연혁</a></li>
+                        <li><a href="#" style="color:#888;">오시는길</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">로그인</a>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-triangle-bottom"></span> Infomation</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" style="color:#888;">교육과정 소개</a></li>
+                        <li><a href="#" style="color:#888;">연간교육안내</a></li>
+                        <li><a href="#" style="color:#888;">교육비환급안내</a></li>
+                        <li><a href="#" style="color:#888;">교육시설소개</a></li>
+                    </ul>
                 </li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Faq</a></li>
+                <li><a class="btn btn-link-3" href="#">Login</a></li>
+                <li><a class="btn btn-link-3" href="#">Join</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-3" style="background-color: #0f7cbb;padding:5px !important;">
+<!-- Top content -->
+<div class="top-content">
     <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active px-lg-5">
-                    <a class="nav-link text-uppercase text-expanded" href="index.html" style="color: white;">아카데미소개
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item px-lg-5">
-                    <a class="nav-link text-uppercase text-expanded" href="about.html" style="color: white;">교육안내</a>
-                </li>
-                <li class="nav-item px-lg-5">
-                    <a class="nav-link text-uppercase text-expanded" href="blog.html" style="color: white;">교육신청</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!-- Page Content -->
-<div class="container">
-    <!-- Page Heading -->
-    <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
-    </h1>
-
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project One</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Two</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Three</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Four</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Five</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Six</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+        <div class="row">
+            <div class="col-sm-12 text wow fadeInLeft">
+                <h1>Engineering, Instrument And Telephone Academy</h1>
+                <div class="description">
+                    <p class="medium-paragraph">
+                        조선 해양 최고의 명장 아래 끊임없는 교육으로 세계 최고의 품질과 기술력을 선도합니다
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /.row -->
-
 </div>
-<!-- /.container -->
+
+<!-- Features -->
+<div class="features-container section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 features section-description wow fadeIn">
+                <h2>환영합니다</h2>
+                <div class="divider-1"><div class="line"></div></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 features-box wow fadeInLeft">
+                <div class="row">
+                    <div class="col-sm-3 features-box-icon">
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>교육신청 절차 안내</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            Ut wisi enim ad minim veniam, quis nostrud.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 features-box wow fadeInLeft">
+                <div class="row">
+                    <div class="col-sm-3 features-box-icon">
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>연간교육 일정 안내</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            Ut wisi enim ad minim veniam, quis nostrud.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 features-box wow fadeInLeft">
+                <div class="row">
+                    <div class="col-sm-3 features-box-icon">
+                        <i class="fa fa-magic"></i>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>교육 문의</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            Ut wisi enim ad minim veniam, quis nostrud.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 features-box wow fadeInLeft">
+                <div class="row">
+                    <div class="col-sm-3 features-box-icon">
+                        <i class="fa fa-cloud"></i>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>교육시설소개</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            Ut wisi enim ad minim veniam, quis nostrud.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
+<footer>
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright © Your Website 2017</p>
+        <div class="row">
+            <div class="col-sm-12 footer-copyright">
+                &copy; EI&T Academy</a>
+            </div>
+        </div>
     </div>
-    <!-- /.container -->
 </footer>
 
-<!-- Bootstrap core JavaScript -->
-<script src="/common/jquery/jquery-3.2.1.min.js"></script>
-<script src="/common/bootstrap/js/bootstrap.js"></script>
 
+<!-- Javascript -->
+<script src="/common/js/jquery-1.11.1.min.js"></script>
+<script src="/common/bootstrap/js/bootstrap.min.js"></script>
+<script src="/common/js/jquery.backstretch.min.js"></script>
+<script src="/common/js/wow.min.js"></script>
+<script src="/common/js/retina-1.1.0.min.js"></script>
+<script src="/common/js/waypoints.min.js"></script>
+<script src="/common/js/scripts.js"></script>
 
+<!--[if lt IE 10]>
+<script src="/common/js/placeholder.js"></script>
+<![endif]-->
+<script>
 
+</script>
+</body>
 
-</body></html>
+</html>
