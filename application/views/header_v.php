@@ -18,18 +18,18 @@
                     <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-triangle-bottom"></span> About</a>
                     <ul class="dropdown-menu">
                         <li><a href="/about/intro" style="color:#888;">인사말</a></li>
-                        <li><a href="#" style="color:#888;">비전</a></li>
-                        <li><a href="#" style="color:#888;">연혁</a></li>
-                        <li><a href="#" style="color:#888;">오시는길</a></li>
+                        <li><a href="/about/vision" style="color:#888;">비전</a></li>
+                        <li><a href="/about/history" style="color:#888;">연혁</a></li>
+                        <li><a href="/about/come" style="color:#888;">오시는길</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-triangle-bottom"></span> Infomation</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#" style="color:#888;">교육과정 소개</a></li>
-                        <li><a href="#" style="color:#888;">연간교육안내</a></li>
-                        <li><a href="#" style="color:#888;">교육비환급안내</a></li>
-                        <li><a href="#" style="color:#888;">교육시설소개</a></li>
+                        <li><a href="/information/education" style="color:#888;">교육과정 소개</a></li>
+                        <li><a href="/information/yearly" style="color:#888;">연간교육안내</a></li>
+                        <li><a href="/information/refund" style="color:#888;">교육비환급안내</a></li>
+                        <li><a href="/information/facility" style="color:#888;">교육시설소개</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Education</a></li>

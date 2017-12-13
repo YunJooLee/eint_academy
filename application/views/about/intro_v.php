@@ -60,14 +60,7 @@
         <div class="container">
             <div class="row pull-left">
                 <div id="primary" class="content-area col-sm-12 col-md-4 side-menu">
-                    <div id="recent-posts-2" class="widget widget_recent_entries">
-                        <ul class="">
-                            <li class=""><a href="/about/intro" class="active">인사말</a></li>
-                            <li class=""><a href="/about/intro">비전</a></li>
-                            <li class=""><a href="/about/intro">연혁</a></li>
-                            <li class=""><a href="/about/intro">오시는 길</a></li>
-                        </ul>
-                    </div>
+                    <?php echo $side_menu;?>
                 </div><!-- #primary -->
                 <div id="secondary" class="widget-area col-sm-12 col-md-8" role="complementary">
                     <div class="page-header">
