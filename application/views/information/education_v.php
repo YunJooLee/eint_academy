@@ -59,22 +59,35 @@
 <div class="top-container">
     <div class="container">
         <div class="row pull-left">
-            <div id="primary" class="content-area col-sm-12 col-md-4 side-menu">
-                <?php echo $side_menu;?>
-            </div><!-- #primary -->
+
             <div id="secondary" class="widget-area col-sm-12 col-md-8" role="complementary">
                 <div class="page-header">
-                    <h1>Your No.1 Partner</h1>
+                    <h1>교육 과정</h1>
                 </div>
-                <img src="/common/img/about/intro.jpg">
-                <h3 style="color: #6eba3c;">EI&T Academy에 오신것을 환영합니다.</h3>
-                <p  style="text-align: left;">
-                    안녕하세요! EI&T Academy 교육훈련원장입니다. 한국선급 EI&T Academy를 방문하여 주셔서 감사합니다!</br>
-                    </br>
-                    우리 선급은 세계 5대 선급으로 도약하기 위하여 총력을 기울이고 있으며, EI&T Academy는 이러한 비전의 성공적 달성과 더불어 우리나라 해운, 조선산업 등 관련분야의 인재양성에 이바지 하고자 설립되었습니다.</br>
-                    </br>
-                    EI&T Academy를 통해 선급업무와 관련된 국제협약 및 선급기술 등 각 분야별 전문지식과 변경사항에 대하여, 축적된 기술력과 교육과정을 바탕으로 해운, 조선업계 종사자들의 니즈를 적극적으로 반영한 교육과정을 개발, 운영해 나가도록 하겠으며, 이를 통해 EI&T Academy는 분야별 최신화된 정보를 학습하고 적용할 수 있는 최고 전문가 학습의 장이 될 수 있도록 하겠습니다.</br>
-                </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-18 col-sm-6 col-md-3">
+                            <div class="img-thumbnail">
+                                <img src="http://placehold.it/500x250/EEE">
+                                <div class="caption" style="padding:15px;">
+                                    <h4>전기 제어 현장 실무 교육</h4>
+                                    <p class="text-left" style="padding-top:15px;min-height:130px;">조선 해양 퇴직자 및 실업자 대상 전기제어 현장 실무 교육</br></br></p>
+                                    <a href="#" class="btn btn-info btn-lg" role="button">신청하기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-18 col-sm-6 col-md-3">
+                            <div class="img-thumbnail">
+                                <img src="http://placehold.it/500x250/EEE">
+                                <div class="caption" style="padding:15px;">
+                                    <h4>전기 계장공사 실무 교육</h4>
+                                    <p class="text-left" style="padding-top:15px;min-height:130px;">조선해양분야 근로자 전기 계장공사 실무 교육</br></br></p>
+                                    <a href="#" class="btn btn-info btn-lg" role="button">신청하기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/row-->
+                </div><!--/container -->
             </div>
         </div>
     </div>

@@ -104,7 +104,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text wow fadeInLeft">
-                <h1>Engineering, Instrument And Telephone Academy</h1>
+                <h1>Electronic, Instrument And Telephone Academy</h1>
                 <div class="description">
                     <p class="medium-paragraph">
                         조선 해양 최고의 명장 아래 끊임없는 교육으로 세계 최고의 품질과 기술력을 선도합니다

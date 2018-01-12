@@ -69,7 +69,7 @@
                     <img src="/common/img/about/intro.jpg">
                     <h3 style="color: #6eba3c;">EI&T Academy에 오신것을 환영합니다.</h3>
                     <p  style="text-align: left;">
-                        안녕하세요! EI&T Academy 교육훈련원장입니다. 한국선급 EI&T Academy를 방문하여 주셔서 감사합니다!</br>
+                        안녕하세요! EI&T Academy 교육훈련원장입니다. EI&T Academy를 방문하여 주셔서 감사합니다!</br>
                         </br>
                         우리 선급은 세계 5대 선급으로 도약하기 위하여 총력을 기울이고 있으며, EI&T Academy는 이러한 비전의 성공적 달성과 더불어 우리나라 해운, 조선산업 등 관련분야의 인재양성에 이바지 하고자 설립되었습니다.</br>
                         </br>
