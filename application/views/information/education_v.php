@@ -51,6 +51,21 @@
             min-width: 230px;
         }
 
+        .panel-heading .accordion-toggle:after {
+            /* symbol for "opening" panels */
+            font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+            content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+            float: right;        /* adjust as needed */
+            color: grey;         /* adjust as needed */
+        }
+        .panel-heading .accordion-toggle.collapsed:after {
+            /* symbol for "collapsed" panels */
+            content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+        }
+        strong{
+            font-weight: 700;
+        }
+
     </style>
 </head>
 <body>
@@ -60,33 +75,57 @@
     <div class="container">
         <div class="row pull-left">
 
-            <div id="secondary" class="widget-area col-sm-12 col-md-8" role="complementary">
+            <div id="secondary" class="widget-area col-sm-12 col-md-12" role="complementary">
                 <div class="page-header">
                     <h1>교육 과정</h1>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-18 col-sm-6 col-md-3">
-                            <div class="img-thumbnail">
-                                <img src="http://placehold.it/500x250/EEE">
-                                <div class="caption" style="padding:15px;">
-                                    <h4>전기 제어 현장 실무 교육</h4>
-                                    <p class="text-left" style="padding-top:15px;min-height:130px;">조선 해양 퇴직자 및 실업자 대상 전기제어 현장 실무 교육</br></br></p>
-                                    <a href="#" class="btn btn-info btn-lg" role="button">신청하기</a>
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title text-left">
+                                    <a data-toggle="collapse" class="accordion-toggle" href="#class1">전기 제어 현장 실무 교육</a>
+                                </h4>
+                            </div>
+                            <div id="class1" class="panel-collapse collapse in">
+                                <div class="panel-body text-left">
+                                    <div class="col-md-2"><img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ0LjA1NDY4NzUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true" style="width: 140px; height: 140px;"></div>
+                                    <div class="col-md-10">
+                                        <strong class="text-primary">교육 목표</strong><br/>
+                                        <small>- 교육 목표 입니다.</small><br/>
+                                        <strong class="text-primary">교육 내용</strong><br/>
+                                        <small>- 교육 내용 입니다.</small><br/>
+                                        <strong class="text-primary">교육 대상</strong><br/>
+                                        <small>- <mark>실업자(일반)</mark></small><br/>
+                                        <strong class="text-primary">교육 기간</strong><br/>
+                                        <small>- 교육 기간 입니다.</small><br/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-18 col-sm-6 col-md-3">
-                            <div class="img-thumbnail">
-                                <img src="http://placehold.it/500x250/EEE">
-                                <div class="caption" style="padding:15px;">
-                                    <h4>전기 계장공사 실무 교육</h4>
-                                    <p class="text-left" style="padding-top:15px;min-height:130px;">조선해양분야 근로자 전기 계장공사 실무 교육</br></br></p>
-                                    <a href="#" class="btn btn-info btn-lg" role="button">신청하기</a>
-                                </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title text-left">
+                                    <a data-toggle="collapse" class="accordion-toggle" href="#class2">전기 계장공사 실무 교육</a>
+                                </h4>
+                            </div>
+                            <div id="class2" class="panel-collapse collapse in">
+                                <div class="panel-body text-left">
+                                    <div class="col-md-2"><img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ0LjA1NDY4NzUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true" style="width: 140px; height: 140px;"></div>
+                                    <div class="col-md-10">
+                                        <strong class="text-primary">교육 목표</strong><br/>
+                                        <small>- 교육 목표 입니다.</small><br/>
+                                        <strong class="text-primary">교육 내용</strong><br/>
+                                        <small>- 교육 내용 입니다.</small><br/>
+                                        <strong class="text-primary">교육 대상</strong><br/>
+                                        <small>- <mark>근로자</mark></small><br/>
+                                        <strong class="text-primary">교육 기간</strong><br/>
+                                        <small>- 교육 기간 입니다.</small><br/>
+                                    </div>
+                                </div>>
                             </div>
                         </div>
-                    </div><!--/row-->
+                    </div><!--/panel-group -->
                 </div><!--/container -->
             </div>
         </div>

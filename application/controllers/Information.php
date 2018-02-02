@@ -13,15 +13,6 @@ class Information extends CI_Controller {
         $this->load->view('information/education_v', $view_data);
     }
 
-    public function yearly()
-    {
-        $view_data['page'] = 'yearly';
-        $empty_data = array();
-        $view_data['header'] = $this->load->view('header_v', $empty_data, true);
-        $view_data['footer'] = $this->load->view('footer_v', $empty_data, true);
-        $view_data['side_menu'] = $this->load->view('information/side_menu_v', $view_data, true);
-        $this->load->view('information/yearly_v', $view_data);
-    }
 
     public function refund()
     {
