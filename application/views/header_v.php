@@ -18,7 +18,7 @@
                     <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-triangle-bottom"></span> About</a>
                     <ul class="dropdown-menu">
                         <li><a href="/about/intro" style="color:#888;">인사말</a></li>
-                        <li><a href="/about/vision" style="color:#888;">비전</a></li>
+                        <!--<li><a href="/about/vision" style="color:#888;">비전</a></li>-->
                         <li><a href="/about/history" style="color:#888;">연혁</a></li>
                         <li><a href="/about/come" style="color:#888;">오시는길</a></li>
                     </ul>

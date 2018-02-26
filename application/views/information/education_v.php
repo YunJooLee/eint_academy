@@ -84,21 +84,21 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title text-left">
-                                    <a data-toggle="collapse" class="accordion-toggle" href="#class1">전기 제어 현장 실무 교육</a>
+                                    <a data-toggle="collapse" class="accordion-toggle" href="#class1">전기 계장 자동제어 실무교육(Commissioning)</a>
                                 </h4>
                             </div>
                             <div id="class1" class="panel-collapse collapse in">
                                 <div class="panel-body text-left">
-                                    <div class="col-md-2"><img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ0LjA1NDY4NzUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true" style="width: 140px; height: 140px;"></div>
+                                    <div class="col-md-2"><img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="/common/img/information/education1.jpg" data-holder-rendered="true" style="width: 140px; height: 140px;"></div>
                                     <div class="col-md-10">
                                         <strong class="text-primary">교육 목표</strong><br/>
-                                        <small>- 교육 목표 입니다.</small><br/>
+                                        <small>- 전기 계장분야 자동제어설비의 전문직 양성</small><br/>
                                         <strong class="text-primary">교육 내용</strong><br/>
-                                        <small>- 교육 내용 입니다.</small><br/>
+                                        <small>- 전기 및 계장 전자부분을 이론 강의를 통하여 이해력을 넓히고 또한 실무위주의 교육을 통하여 운전 및 조작을 가능케하고 실습을 함으로 완전 전문인이 되도록하기 위한 교육으로 남녀 구분없이 참여가능 교육이다.</small><br/>
                                         <strong class="text-primary">교육 대상</strong><br/>
                                         <small>- <mark>실업자(일반)</mark></small><br/>
                                         <strong class="text-primary">교육 기간</strong><br/>
-                                        <small>- 교육 기간 입니다.</small><br/>
+                                        <small>- 야간 4개월, 주간 1.5개월</small><br/>
                                     </div>
                                 </div>
                             </div>
@@ -106,23 +106,23 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title text-left">
-                                    <a data-toggle="collapse" class="accordion-toggle" href="#class2">전기 계장공사 실무 교육</a>
+                                    <a data-toggle="collapse" class="accordion-toggle" href="#class2">전기 계장공사 실무교육</a>
                                 </h4>
                             </div>
                             <div id="class2" class="panel-collapse collapse in">
                                 <div class="panel-body text-left">
-                                    <div class="col-md-2"><img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ0LjA1NDY4NzUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true" style="width: 140px; height: 140px;"></div>
+                                    <div class="col-md-2"><img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="/common/img/information/education2.jpg" data-holder-rendered="true" style="width: 140px; height: 140px;"></div>
                                     <div class="col-md-10">
                                         <strong class="text-primary">교육 목표</strong><br/>
-                                        <small>- 교육 목표 입니다.</small><br/>
+                                        <small>- 전기 계장공사 전문직 양성</small><br/>
                                         <strong class="text-primary">교육 내용</strong><br/>
                                         <small>- 교육 내용 입니다.</small><br/>
                                         <strong class="text-primary">교육 대상</strong><br/>
                                         <small>- <mark>근로자</mark></small><br/>
                                         <strong class="text-primary">교육 기간</strong><br/>
-                                        <small>- 교육 기간 입니다.</small><br/>
+                                        <small>- 야간 4개월, 주간 1.5개월</small><br/>
                                     </div>
-                                </div>>
+                                </div>
                             </div>
                         </div>
                     </div><!--/panel-group -->

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Navbar Menu Template</title>
+    <title>Academy DS</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500">
@@ -66,7 +66,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">EI&T Academy</a>
+            <a class="navbar-brand" href="/">EI&T Academy</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="top-navbar-1">
@@ -76,7 +76,7 @@
                     <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-triangle-bottom"></span> About</a>
                     <ul class="dropdown-menu">
                         <li><a href="/about/intro" style="color:#888;">인사말</a></li>
-                        <li><a href="/about/vision" style="color:#888;">비전</a></li>
+                        <!--<li><a href="/about/vision" style="color:#888;">비전</a></li>-->
                         <li><a href="/about/history" style="color:#888;">연혁</a></li>
                         <li><a href="/about/come" style="color:#888;">오시는길</a></li>
                     </ul>
@@ -136,34 +136,36 @@
             <div class="col-sm-6 features-box wow fadeInLeft">
                 <div class="row">
                     <div class="col-sm-3 features-box-icon">
-                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-info"></i>
                     </div>
                     <div class="col-sm-9">
                         <h3>교육신청 절차 안내</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                            Ut wisi enim ad minim veniam, quis nostrud.
-                        </p>
+                        <a href="/education/apply">
+                            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                            교육신청 절차를 안내해 드립니다.
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 features-box wow fadeInLeft">
                 <div class="row">
                     <div class="col-sm-3 features-box-icon">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-graduation-cap"></i>
                     </div>
                     <div class="col-sm-9">
-                        <h3>연간교육 일정 안내</h3>
+                        <h3>교육 신청</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                            Ut wisi enim ad minim veniam, quis nostrud.
+                            <a href="/education/apply_way">
+                                <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                                지금 바로 교육 신청 하세요.
+                            </a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="row">
+            <!--
             <div class="col-sm-6 features-box wow fadeInLeft">
                 <div class="row">
                     <div class="col-sm-3 features-box-icon">
@@ -178,16 +180,32 @@
                     </div>
                 </div>
             </div>
+            -->
             <div class="col-sm-6 features-box wow fadeInLeft">
                 <div class="row">
                     <div class="col-sm-3 features-box-icon">
-                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>연간교육 일정 안내</h3>
+                        <p>
+                            <a style="color:#888;cursor: pointer;" onclick="go_information_yearly();">
+                                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                                교육 일정을 확인하세요.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 features-box wow fadeInLeft">
+                <div class="row">
+                    <div class="col-sm-3 features-box-icon">
+                        <i class="fa fa-building"></i>
                     </div>
                     <div class="col-sm-9">
                         <h3>교육시설소개</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                            Ut wisi enim ad minim veniam, quis nostrud.
+                            <a href="/information/facility" style="color:#888;">Academy DS 시설을 소개해 드립니다. </a>
                         </p>
                     </div>
                 </div>
